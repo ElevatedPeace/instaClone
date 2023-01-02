@@ -14,68 +14,57 @@
 
 <body>
     <main class="mainWrapper">
-        <nav class="navbar">
-            <img style="width: 60%; margin: 15px;" src="./assets/instagram logo.png">
+        <div class="navbar">
+            <img class="logo" src="./assets/instagram logo.png">
 
-            <div style="margin-top: 30px;">
-                <div>
-                    <a href="#">
-                        <i class="fa fa-home" aria-hidden="true"></i>
-                        <p> Home </p>
-                    </a>
-                </div>
+            <div class="nav-menu">
 
-                <div>
-                    <a href="#">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                        <p> Search </p>
-                    </a>
-                </div>
+                <a href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <p> Home </p>
+                </a>
 
-                <div>
-                    <a href="#">
-                        <i class="fa fa-compass" aria-hidden="true"></i>
-                        <p> Compass </p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <i class="fab fa-telegram-plane"></i>
-                        <p> Messages </p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <i class="fa-regular fa-heart"></i>
-                        <p> Notifications </p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="./assets/face img.jpg">
-                        <p> Profile </p>
-                    </a>
-                </div>
+                <a href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <p> Search </p>
+                </a>
 
-            </div>
 
-            <div>
-                <a style="display: flex; gap: 1rem; margin-top: 50px; padding: 20px; text-decoration: none; color: #000;"
-                    href="#">
-                    <div>
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
+                <a href="#">
+                    <i class="fa fa-compass" aria-hidden="true"></i>
+                    <p> Compass </p>
+                </a>
+
+
+                <a href="#">
+                    <i class="fab fa-telegram-plane"></i>
+                    <p> Messages </p>
+                </a>
+
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                    <p> Notifications </p>
+                </a>
+
+                <a href="#">
+                    <img src="./assets/face img.jpg">
+                    <p> Profile </p>
+                </a>
+
+                <a class="bars" href="#">
+                    <i class="fa-solid fa-bars"></i>
                     <p> More </p>
                 </a>
-            </div>
 
             </div>
-        </nav>
-        <section class="mainArea">
-            <div style="width: 80%; margin-left:auto; margin-bottom: 5%;">
 
-                <div class="stories">
-                    <div class="stories-images" style="display: flex; justify-content: space-evenly;">
+        </div>
+
+        <section class="mainArea" id="width-size">
+            <div class="mainArea-div">
+
+                <div class="stories" id="width-size">
+                    <div class="stories-images">
                         <div>
                             <img src="./assets/pexels-marcelo-chagas-4398984_1-3425189.jpg">
                             <p>Genesis</p>
@@ -103,7 +92,7 @@
 
                 <div class="main-area">
                     <div class="cards">
-                        <div class="card" style="display: flex; justify-content:space-between; align-items: center;">
+                        <div id="width-size" class="card">
                             <div>
                                 <a href="#">
                                     <img src="./assets/pics.jpg">
@@ -116,11 +105,11 @@
                             </div>
 
                         </div>
-                        <img class="mainPics"
+                        <img class="mainPics" id="width-size"
                             src="./assets/gorgeous-lady-with-dyed-african-braids-hairstyle-l-8F85HC7_1-3428260.jpg">
 
-                        <div style="display: flex; justify-content: space-between; margin: 10 20px; padding: 10px;">
-                            <div style="font-size: 18px; padding-right:15px;">
+                        <div class="cardBottom-icons">
+                            <div class="icons-div1">
                                 <i class="fa-regular fa-heart"></i>
                                 <i class="fa-regular fa-comment"></i>
                                 <i class="fa-regular fa-paper-plane"></i>
@@ -131,41 +120,35 @@
                             </div>
                         </div>
 
-                        <div style="line-height: 2rem; margin: 5px 20px;">
+                        <div class="post-div">
                             <h4> 659 Likes</h4>
-                            <h3>Praiseworld_ <span style="color: gray; font-size: 16px;"> Dear Husbands,...</span> <a
-                                    style="color: black;" href="#">more</a></h3>
+                            <h3 id="h3-span">Praiseworld_ <span> Dear Husbands,...</span> <a style="color: black;"
+                                    href="#">more</a></h3>
                             <p> View all 20 Comments</p>
-                            <h3>Praiseworld_ <a style="font-size: 16px;" href="#">@relationshipandmarriage</a> you're
+                            <h3>Praiseworld_ <a href="#">@relationshipandmarriage</a> you're
                                 welcome &#128151;</h3>
-                            <h3> Praiseworld_ <a style="font-size: 16px;" href="#"> oreeeeofe</a>
+                            <h3> Praiseworld_ <a href="#"> oreeeeofe</a>
                                 &#128516;&#128516;&#128512;</h3>
 
                             <p> 1 DAY AGO</p>
 
-                            <div style="display: flex; padding: 15px; justify-content: space-between; align-items: center; width: 100%;
-                         border-top: 1px solid #88888859;
-                         height: 40px;">
-                                <div
-                                    style="display: flex; width: 500px; border: none; outline:none; align-items: center; gap: 2rem;">
+
+                            <div class="inputIcon-div">
+                                <div>
                                     <i style="text-align: center;" class="fa-regular fa-face-smile"></i>
-                                    <input style="flex: 1; border: none; outline: none; font-size: 18px;" type="text"
-                                        placeholder="Add a Comment...">
+                                    <input class="input" type="text" placeholder="Add a Comment...">
                                 </div>
-
-                                <a style="text-decoration: none; font-size: 18px;" href="#"> Post</a>
+                                <a id="input-a" href="#"> Post</a>
                             </div>
+
                         </div>
-
-
-
                     </div>
 
                 </div>
 
                 <div class="main-area">
                     <div class="cards">
-                        <div class="card" style="display: flex; justify-content:space-between; align-items: center;">
+                        <div class="card">
                             <div>
                                 <a href="#">
                                     <img src="./assets/pics.jpg">
@@ -180,8 +163,8 @@
                         </div>
                         <img class="mainPics" src="./assets/pexels-anna-shvets-5325637_1-3427277.jpg">
 
-                        <div style="display: flex; justify-content: space-between; margin: 10 20px; padding: 10px;">
-                            <div style="font-size: 18px; padding-right:15px;">
+                        <div class="cardBottom-icons">
+                            <div class="icons-div1">
                                 <i class="fa-regular fa-heart"></i>
                                 <i class="fa-regular fa-comment"></i>
                                 <i class="fa-regular fa-paper-plane"></i>
@@ -192,30 +175,27 @@
                             </div>
                         </div>
 
-                        <div style="line-height: 2rem; margin: 5px 20px;">
+                        <div class="post-div">
                             <h4> 659 Likes</h4>
-                            <h3>Praiseworld_ <span style="color: gray; font-size: 16px;"> Dear Husbands,...</span> <a
-                                    style="color: black;" href="#">more</a></h3>
+                            <h3 id="h3-span">Praiseworld_ <span> Dear Husbands,...</span> <a style="color: black;"
+                                    href="#">more</a></h3>
                             <p> View all 20 Comments</p>
-                            <h3>Praiseworld_ <a style="font-size: 16px;" href="#">@relationshipandmarriage</a> you're
+                            <h3>Praiseworld_ <a href="#">@relationshipandmarriage</a> you're
                                 welcome &#128151;</h3>
-                            <h3> Praiseworld_ <a style="font-size: 16px;" href="#"> oreeeeofe</a>
+                            <h3> Praiseworld_ <a href="#"> oreeeeofe</a>
                                 &#128516;&#128516;&#128512;</h3>
 
                             <p> 1 DAY AGO</p>
 
-                            <div style="display: flex; padding: 15px; justify-content: space-between; align-items: center; width: 100%;
-                         border-top: 1px solid #88888859;
-                         height: 40px;">
-                                <div
-                                    style="display: flex; width: 500px; border: none; outline:none; align-items: center; gap: 2rem;">
-                                    <i style="text-align: center;" class="fa-regular fa-face-smile"></i>
-                                    <input style="flex: 1; border: none; outline: none; font-size: 18px;" type="text"
-                                        placeholder="Add a Comment...">
-                                </div>
 
-                                <a style="text-decoration: none; font-size: 18px;" href="#"> Post</a>
+                            <div class="inputIcon-div">
+                                <div>
+                                    <i style="text-align: center;" class="fa-regular fa-face-smile"></i>
+                                    <input class="input" type="text" placeholder="Add a Comment...">
+                                </div>
+                                <a id="input-a" href="#"> Post</a>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -223,7 +203,7 @@
 
                 <div class="main-area">
                     <div class="cards">
-                        <div class="card" style="display: flex; justify-content:space-between; align-items: center;">
+                        <div class="card">
                             <div>
                                 <a href="#">
                                     <img src="./assets/graphics.jpg">
@@ -238,8 +218,8 @@
                         </div>
                         <img class="mainPics" src="./assets/pexels-osmar-vasques-1868684_1-3425193.jpg">
 
-                        <div style="display: flex; justify-content: space-between; margin: 10 20px; padding: 10px;">
-                            <div style="font-size: 18px; padding-right:15px;">
+                        <div class="cardBottom-icons">
+                            <div class="icons-div1">
                                 <i class="fa-regular fa-heart"></i>
                                 <i class="fa-regular fa-comment"></i>
                                 <i class="fa-regular fa-paper-plane"></i>
@@ -250,30 +230,27 @@
                             </div>
                         </div>
 
-                        <div style="line-height: 2rem; margin: 5px 20px;">
+                        <div class="post-div">
                             <h4> 659 Likes</h4>
-                            <h3>Praiseworld_ <span style="color: gray; font-size: 16px;"> Dear Husbands,...</span> <a
-                                    style="color: black;" href="#">more</a></h3>
+                            <h3 id="h3-span">Praiseworld_ <span> Dear Husbands,...</span> <a style="color: black;"
+                                    href="#">more</a></h3>
                             <p> View all 20 Comments</p>
-                            <h3>Praiseworld_ <a style="font-size: 16px;" href="#">@relationshipandmarriage</a> you're
+                            <h3>Praiseworld_ <a href="#">@relationshipandmarriage</a> you're
                                 welcome &#128151;</h3>
-                            <h3> Praiseworld_ <a style="font-size: 16px;" href="#"> oreeeeofe</a>
+                            <h3> Praiseworld_ <a href="#"> oreeeeofe</a>
                                 &#128516;&#128516;&#128512;</h3>
 
                             <p> 1 DAY AGO</p>
 
-                            <div style="display: flex; padding: 15px; justify-content: space-between; align-items: center; width: 100%;
-                             border-top: 1px solid #88888859;
-                             height: 40px;">
-                                <div
-                                    style="display: flex; width: 500px; border: none; outline:none; align-items: center; gap: 2rem;">
-                                    <i style="text-align: center;" class="fa-regular fa-face-smile"></i>
-                                    <input style="flex: 1; border: none; outline: none; font-size: 18px;" type="text"
-                                        placeholder="Add a Comment...">
-                                </div>
 
-                                <a style="text-decoration: none; font-size: 18px;" href="#"> Post</a>
+                            <div class="inputIcon-div">
+                                <div>
+                                    <i style="text-align: center;" class="fa-regular fa-face-smile"></i>
+                                    <input class="input" type="text" placeholder="Add a Comment...">
+                                </div>
+                                <a id="input-a" href="#"> Post</a>
                             </div>
+
                         </div>
                     </div>
 
@@ -282,7 +259,7 @@
 
                 <div class="main-area">
                     <div class="cards">
-                        <div class="card" style="display: flex; justify-content:space-between; align-items: center;">
+                        <div class="card">
                             <div>
                                 <a href="#">
                                     <img
@@ -298,8 +275,8 @@
                         </div>
                         <img class="mainPics" src="./assets/pexels-mateus-reis-3870396_1-3432744.jpg">
 
-                        <div style="display: flex; justify-content: space-between; margin: 10 20px; padding: 10px;">
-                            <div style="font-size: 18px; padding-right:15px;">
+                        <div class="cardBottom-icons">
+                            <div class="icons-div1">
                                 <i class="fa-regular fa-heart"></i>
                                 <i class="fa-regular fa-comment"></i>
                                 <i class="fa-regular fa-paper-plane"></i>
@@ -310,50 +287,42 @@
                             </div>
                         </div>
 
-                        <div style="line-height: 2rem; margin: 5px 20px;">
+                        <div class="post-div">
                             <h4> 659 Likes</h4>
-                            <h3>Praiseworld_ <span style="color: gray; font-size: 16px;"> Dear Husbands,...</span> <a
-                                    style="color: black;" href="#">more</a></h3>
+                            <h3 id="h3-span">Praiseworld_ <span> Dear Husbands,...</span> <a style="color: black;"
+                                    href="#">more</a></h3>
                             <p> View all 20 Comments</p>
-                            <h3>Praiseworld_ <a style="font-size: 16px;" href="#">@relationshipandmarriage</a> you're
+                            <h3>Praiseworld_ <a href="#">@relationshipandmarriage</a> you're
                                 welcome &#128151;</h3>
-                            <h3> Praiseworld_ <a style="font-size: 16px;" href="#"> oreeeeofe</a>
+                            <h3> Praiseworld_ <a href="#"> oreeeeofe</a>
                                 &#128516;&#128516;&#128512;</h3>
 
                             <p> 1 DAY AGO</p>
 
-                            <div style="display: flex; padding: 15px; justify-content: space-between; align-items: center; width: 100%;
-                             border-top: 1px solid #88888859;
-                             height: 40px;">
-                                <div
-                                    style="display: flex; width: 500px; border: none; outline:none; align-items: center; gap: 2rem;">
+
+                            <div class="inputIcon-div">
+                                <div>
                                     <i style="text-align: center;" class="fa-regular fa-face-smile"></i>
-                                    <input style="flex: 1; border: none; outline: none; font-size: 18px;" type="text"
-                                        placeholder="Add a Comment...">
+                                    <input class="input" type="text" placeholder="Add a Comment...">
                                 </div>
-
-                                <a style="text-decoration: none; font-size: 18px;" href="#"> Post</a>
+                                <a id="input-a" href="#"> Post</a>
                             </div>
+
                         </div>
-
-
-
                     </div>
-
                 </div>
-
             </div>
 
 
         </section>
         <article class="suggestions">
 
-            <div
-                style="display: flex; justify-content:space-between; align-items: center; margin: 0 20px; margin-top:60px ;">
-                <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="suggestion-top">
+                <div>
 
                     <div>
-                        <img style="width: 50px; height: 50px;" src="./assets/pexels-mateus-reis-3870396_1-3432744.jpg">
+                        <img style="width: 50px; height: 50px;" 
+                        src="./assets/pexels-mateus-reis-3870396_1-3432744.jpg">
 
                     </div>
 
@@ -369,15 +338,13 @@
                 </p>
             </div>
 
-            <div
-                style="display: flex; font-size: 20px; justify-content:space-between; margin:5px 25px; text-align:center;">
+            <div class="suggestion-body">
                 <h4>Suggestions For You</h4>
                 <h4> See All</h4>
             </div>
 
-            <div
-                style="display: flex; justify-content:space-between; align-items: center; margin: 0 25px; margin-bottom: 10px;">
-                <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="suggestion-lists">
+                <div class="lists-div">
 
                     <div>
                         <img src="./assets/pexels-anna-shvets-5325637_1-3427277.jpg">
@@ -396,9 +363,8 @@
                 </p>
             </div>
 
-            <div
-                style="display: flex; justify-content:space-between; align-items: center; margin: 0 25px; margin-bottom: 10px;">
-                <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="suggestion-lists">
+                <div class="lists-div">
 
                     <div>
                         <img src="./assets/black-girl-afro-hairstyle-in-urban-street-with-hea-8KNU7G5_1-3426302.jpg">
@@ -417,9 +383,8 @@
                 </p>
             </div>
 
-            <div
-                style="display: flex; justify-content:space-between; align-items: center; margin: 0 25px; margin-bottom: 10px;">
-                <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="suggestion-lists">
+                <div class="lists-div">
 
                     <div>
                         <img src="./assets/pexels-evg-culture-4171757_1-3433908.jpg">
@@ -438,9 +403,8 @@
                 </p>
             </div>
 
-            <div
-                style="display: flex; justify-content:space-between; align-items: center; margin: 0 25px; margin-bottom: 10px;">
-                <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="suggestion-lists">
+                <div class="lists-div">
 
                     <div>
                         <img src="./assets/pexels-osmar-vasques-1868684_1-3425193.jpg">
@@ -459,9 +423,8 @@
                 </p>
             </div>
 
-            <div
-                style="display: flex; justify-content:space-between; align-items: center; margin: 0 25px; margin-bottom: 10px;">
-                <div style="display: flex; gap: 1rem; align-items: center;">
+            <div class="suggestion-lists">
+                <div class="lists-div">
 
                     <div>
                         <img src="./assets/pexels-marcelo-chagas-4398984_1-3425189.jpg">
@@ -480,7 +443,7 @@
                 </p>
             </div>
 
-            <ul style="display: flex; justify-content: space-between; margin: 40px 60px; gap: 1rem; flex-wrap: wrap;">
+            <ul>
                 <li><a href="#"> About </a></li>
                 <li><a href="#"> Help </a></li>
                 <li><a href="#"> Press </a></li>
@@ -492,7 +455,7 @@
                 <li><a href="#"> Language </a></li>
             </ul>
 
-            <p style="color: gray; margin:30px;"> &copy; 2022 INSTAGRAM FROM META </p>
+            <p class="footer-p"> &copy; 2022 INSTAGRAM FROM META </p>
 
 
         </article>
